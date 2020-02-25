@@ -1,40 +1,40 @@
 <?php
 
-interface FigureInterface{}
-interface PrimitiveInterface{}
-interface Area{
-    public function getArea();
+interface FigureInterface{
+    public function getSquare();
 }
+interface PrimitiveInterface{}
 
-class Square implements FigureInterface, Area
+
+class Square implements FigureInterface
 {
     public $sideSize;
-    public function getArea()
+
+    public function getSquare()
     {
-        // TODO: Implement getArea() method.
+        // TODO: Implement getSquare() method.
     }
 }
 
-class Triangle implements FigureInterface, Area
+class Triangle implements FigureInterface
 {
     public $sideSize1;
     public $sideSize2;
     public $sideSize3;
 
-    public function getArea()
+    public function getSquare()
     {
-        // TODO: Implement getArea() method.
+        // TODO: Implement getSquare() method.
     }
 }
 
-class Circle implements FigureInterface, Area
+class Circle implements FigureInterface
 {
     public $radius;
-    //M_PI
 
-    public function getArea()
+    public function getSquare()
     {
-        // TODO: Implement getArea() method.
+        // TODO: Implement getSquare() method.
     }
 }
 
@@ -46,7 +46,7 @@ $data = [
     new Triangle(),
     new Circle(),
     new Point(),
-    new Line,
+    new Line(),
 ];
 
 $figures = [];
@@ -67,3 +67,9 @@ foreach ($data as $k=>$obj) {
 
 print_r($figures);
 print_r($primitives);
+
+
+
+$obj = new ReflectionClass('Triangle');
+print_r($obj->getName());
+print_r($obj->getProperties());
