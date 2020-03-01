@@ -1,0 +1,17 @@
+{
+    "name": "student/hillel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlexanderBeS",
+            "email": "oibespalov@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hillel\\": "src"
+        }
+    }
+}
