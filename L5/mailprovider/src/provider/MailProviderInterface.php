@@ -1,16 +1,14 @@
 <?php
 
-
 namespace Application\Provider;
-
 
 interface MailProviderInterface
 {
     /**
-     * send mail via provider
+     * Parse ini configuration
      *
      * @return bool
      */
-    public function send(): bool;
+    public function send(array $mailData): bool;
 
 }

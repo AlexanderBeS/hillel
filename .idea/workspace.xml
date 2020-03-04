@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf529b7-6f62-4e81-b422-df11e8fd1539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L4/autoload/SingleResponsibility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/namespaces/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/self.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/config/mail.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/ConfigurableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/ConfigurableTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/MailSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/provider/GmailProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/provider/MailjetProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/mailprovider/src/provider/SendgridProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hillel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hillel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/L4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/mailprovider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/L5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/ConfigurableTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/provider/GmailProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/provider/MailProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/L5/mailprovider/src/provider/MailProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/provider/MailjetProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/mailprovider/provider/SendgridProvider.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +30,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="835" />
@@ -68,7 +90,9 @@
       <workItem from="1582565992692" duration="884000" />
       <workItem from="1582801764456" duration="3867000" />
       <workItem from="1583079498940" duration="2009000" />
-      <workItem from="1583082458152" duration="1083000" />
+      <workItem from="1583082458152" duration="2127000" />
+      <workItem from="1583345152772" duration="434000" />
+      <workItem from="1583345763977" duration="1759000" />
     </task>
     <servers />
   </component>
