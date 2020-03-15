@@ -24,11 +24,6 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="835" />
-    <option name="width" value="1085" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1YFLhEqHFBfIlxHdYKrOZtWAVV1" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,7 +73,7 @@
       <workItem from="1583951818958" duration="1549000" />
       <workItem from="1584288827833" duration="1754000" />
       <workItem from="1584290653155" duration="401000" />
-      <workItem from="1584291272803" duration="398000" />
+      <workItem from="1584291272803" duration="1461000" />
     </task>
     <servers />
   </component>
